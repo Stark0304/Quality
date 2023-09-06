@@ -1,0 +1,564 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ html{
+     scroll-behavior: smooth;
+ }
+ 
+ section{
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ #Inicio{
+     background-image: url(background.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ 
+ #a1892{
+     background-image: linear-gradient(rgba(0, 0, 0, 0.185), rgba(0, 0, 0, 0.8)),url(RI.jpg);
+     background-size: cover;
+     background-position: center;
+     color: white;
+     font-size: 40px;
+ }
+
+ #a1892 p
+    {
+    width: 80%;
+    font-size:45px;
+    text-align: justify;
+    }
+
+ #a1905{
+     background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)),url(1930.jpg);
+     background-size: cover;
+     background-position: center;
+     color: black;
+     
+     
+ }
+
+ #a1905 p
+ {
+    font-size: 40px;
+    font-weight: 400;
+    text-align: justify;
+    width: 80%;
+    color: white;
+ }
+ 
+ #a1948{
+     background-image:linear-gradient(rgba(0, 0, 0, 0.185),rgba(0, 0, 0, .1)) ,url(ql.jpeg);
+     background-size: cover;
+     background-position: center;
+     color: whitesmoke;
+     font-size: 50px;
+     font-weight: 400;
+ }
+ 
+ #a1948 p{
+     width: 80%;
+     font-size:50px;
+     text-align: justify;
+ }
+ 
+ #a1949{
+     background-image: linear-gradient(rgba(0, 0, 0, .01),rgba(0, 0, 0, 0.856)),url(quality.jpg);
+     background-size: cover;
+     background-position: center;
+     color: whitesmoke;
+     font-size: 50px;
+     font-weight: 400;
+ }
+ 
+ #a1949 p{
+     width: 80%;
+ }
+ 
+ #a1972{
+     background-image: linear-gradient(rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0.699)),url(1979.jpg);
+     background-size: cover;
+     background-position: center;
+     color: wheat;
+     font-size: 50px;
+     font-weight: 1000;
+ }
+ 
+ #a1972 p{
+     width: 80%;
+     text-align: justify;
+ }
+ 
+ #a1972-2{
+     background-image: linear-gradient(rgba(0, 0, 0, 0.445),black),url(ISO.png);
+     background-size: cover;
+     background-position: center;
+     color: white;
+ }
+ 
+ #a1972-2 p{
+     width: 80%;
+     text-align: justify;
+     font-size: 50px;
+ }
+ 
+ #a1992{
+     background-image: linear-gradient(rgba(0, 0, 0, 0.815),rgba(0, 0, 0, 0)),url(1992.jpg);
+     background-size: cover;
+     background-position: center;
+     font-size: 40px;
+     color: white;
+ }
+ 
+ #a1992 p{
+     width: 80%;
+ }
+ 
+ #a1997{
+     background-image: linear-gradient(rgba(0, 0, 0, 0.603),rgba(0, 0, 0, 0.014)),url(1997.jpg);
+     background-size: cover;
+     background-position: center;
+     color: white;
+     font-size: 40px;
+ }
+ 
+ #a1997 p{
+     width: 80%;
+ }
+ 
+ #a1980{
+     background-image: linear-gradient(rgba(0, 0, 0, .603),rgba(0, 0, 0, 0.76)),url(QL.png);
+     background-size: cover;
+     background-position: center;
+ 
+ }
+ 
+ #a1980 p{
+     color: white;
+     font-size: 40px;
+     text-align: justify;
+     width: 80%;
+     line-height: 3rem;
+ }
+ 
+ #a2000{
+     background-image: url(2000.jpg);
+     background-size: cover;
+     background-position: center;
+ }
+ 
+ #a2000 p{
+     color: white;
+     font-size: 40px;
+     width: 80%;
+     text-align: justify;
+ }
+ 
+ #a2001{
+     background-image: url(2001.jpg);
+     background-size: cover;
+     background-position: center;
+ }
+ 
+ #a2001 p{
+     color: black;
+     font-size: 40px;
+     width: 80%;
+     text-align: justify;
+     font-weight: 500;
+ }
+ 
+ #a2002{
+     background-image: linear-gradient(rgba(0, 0, 0, 0.007),rgba(0, 0, 0, 0.699)),url(2002.jpg);
+     background-size: cover;
+     background-position: center;
+     color: black;
+     font-size: 80px;
+     color: white;
+     font-weight: 5000;
+ }
+ 
+ #a2012{
+     background-image: linear-gradient(rgba(0, 0, 0, 0.63),rgba(0, 0, 0, 0)),url(HD.jpg);
+     background-size: cover;
+     background-position: center;
+     color: black;
+     font-size: 50px;
+ }
+ 
+ #a2012 p{
+     width: 80%;
+     text-align: justify;
+ }
+ 
+ #a2015{
+     background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.658)),url(final.jpg);
+     background-size: cover;
+     background-position: center;
+     color: white;
+     font-size: 50px;
+ }
+ 
+ #a2015 p{
+     width: 80%;
+     text-align: justify;
+ }
+ 
+ #Inicio h1{
+     font-size: 68px;
+     letter-spacing: 5px;
+ }
+ 
+ section h3{
+     font-size: 50px;
+     letter-spacing: 5px;
+     text-align: center;
+ }
+ 
+ section img{
+     margin-top: 30px;
+     max-width: 300px;
+ }
+ 
+ .contenedor-tiempo{
+     position: fixed;
+     top: 20px;
+     left: 50%;
+     transform: translateX(-50%);
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .contenedor-tiempo .linea{
+     width: 900px;
+     position: absolute;
+     top: 30px;
+     height: 2px;
+     background-color: black;
+     z-index: - 2;
+ }
+ 
+ .fecha{
+     display: inline-block;
+     font-size: 20px;
+     width: 60px;
+     height: 60px;
+     border-radius: 50%;
+     background-color: #2d4059;
+     text-decoration: none;
+     color: white;
+     margin: 0 15px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     transform: scale(1);
+     transition: background-color, transform .5s linear;
+ }
+ 
+ .seleccionado{
+     transform: scale(1.2);
+     background-color: #ea5455;
+     color: #000;
+     font-weight: bold;
+ }
+ 
+ .representantes{
+     display: flex;
+     flex-direction:row;
+     justify-content:space-around;
+     align-items: flex-start;
+ }
+ 
+ .nombres{
+     justify-content: center;
+     text-align: justify;
+     color: #555;
+     font-size: 30px;
+     font-weight: 600;
+     text-decoration: none;
+ }
+ 
+ @media only screen and (max-width:1200px){
+     .contenedor-tiempo{
+         width: 1200px;
+     }
+ 
+     #a1892 p{
+         font-size: 32px;
+     }
+     
+     #a1905 p{
+         font-size: 40px;
+     }
+     
+     #a1948{
+         background-size: cover;
+         background-position: center;
+         color: whitesmoke;
+         font-size: 50px;
+         font-weight: 400;
+     }
+     
+     #a1948 p{
+         font-size:40px;
+         text-align: justify;
+     }
+     
+     #a1949 p{
+         font-size: 33px;
+     }
+     
+     #a1972 p{
+         font-size: 33px;
+     }
+     
+     #a1972-2 p{
+         width: 80%;
+         text-align: justify;
+     }
+     
+     #a1992{
+         background-size: cover;
+         background-position: center;
+         font-size: 40px;
+         color: white;
+     }
+     
+     #a1992 p{
+         width: 80%;
+     }
+     
+     #a1997{
+         background-size: cover;
+         background-position: center;
+         color: white;
+         font-size: 40px;
+     }
+     
+     #a1997 p{
+         width: 80%;
+     }
+     
+     #a1980{
+         background-size: cover;
+         background-position: center;
+     
+     }
+     
+     #a1980 p{
+         color: white;
+         font-size: 40px;
+         text-align: center;
+     }
+     
+     #a2000{
+ 
+         background-size: cover;
+         background-position: center;
+     }
+     
+     #a2000 p{
+         color: white;
+         font-size: 40px;
+         width: 80%;
+         text-align: justify;
+     }
+     
+     #a2001{
+         background-size: cover;
+         background-position: center;
+     }
+     
+     #a2001 p{
+         color: black;
+         font-size: 40px;
+         width: 80%;
+         text-align: justify;
+         font-weight: 500;
+     }
+     
+     #a2002 p{
+         font-size: 40px;
+     }
+     
+     #a2012{
+         background-size: cover;
+         background-position: center;
+         color: black;
+         font-size: 50px;
+     }
+     
+     #a2012 p{
+         width: 80%;
+         text-align: justify;
+     }
+     
+     #a2015{
+         background-size: cover;
+         background-position: center;
+         color: white;
+         font-size: 50px;
+     }
+     
+     #a2015 p{
+         width: 80%;
+         text-align: justify;
+     }
+ }
+ 
+ @media only screen and (max-width:1024px){
+     .contenedor-tiempo{
+         width: 1024px;
+         height: 100px;
+     }
+ 
+     .nombres{
+         font-size: 25px;
+     }
+ 
+     h1,h3{
+         font-size: 5%;
+     }
+ 
+     #a1892 p{
+         font-size: 28px;
+     }
+     
+     #a1905 p{
+         font-size: 33px;
+     }
+     
+     #a1948 p{
+         font-size:33px;
+         text-align: justify;
+     }
+     
+     #a1949 p{
+         font-size: 33px;
+     }
+     
+     #a1972 p{
+         font-size: 30px;
+     }
+     
+     #a1972-2 p{
+         font-size: 33px;
+     }
+     
+     #a1992 p{
+         font-size: 30px;
+     }
+     
+     #a1997 p{
+         font-size: 30px;
+     }
+     
+     #a1980 p{
+         font-size: 26px;
+     }
+     
+     #a2000 p{
+         font-size: 28px;
+     }
+     
+     #a2001 p{
+         font-size: 33px;
+     }
+     
+     #a2002 p{
+         font-size: 40px;
+     }
+     
+     #a2012 p{
+         font-size: 35px;
+     }
+     
+     #a2015 p{
+         font-size: 33px;
+     }
+ }
+ 
+ @media only screen and (max-width:768px){
+     .contenedor-tiempo,
+     .linea{
+         width: 0%;
+     }
+ 
+     .nombres{
+         font-size: 25px;
+     }
+ 
+     h1,h3{
+         font-size: -10%;
+     }
+ 
+     #a1892 p{
+         font-size: 28px;
+     }
+     
+     #a1905 p{
+         font-size: 33px;
+     }
+     
+     #a1948 p{
+         font-size:33px;
+         text-align: justify;
+     }
+     
+     #a1949 p{
+         font-size: 33px;
+     }
+     
+     #a1972 p{
+         font-size: 30px;
+     }
+     
+     #a1972-2 p{
+         font-size: 33px;
+     }
+     
+     #a1992 p{
+         font-size: 30px;
+     }
+     
+     #a1997 p{
+         font-size: 30px;
+     }
+     
+     #a1980 p{
+         font-size: 26px;
+     }
+     
+     #a2000 p{
+         font-size: 28px;
+     }
+     
+     #a2001 p{
+         font-size: 33px;
+     }
+     
+     #a2002 p{
+         font-size: 40px;
+     }
+     
+     #a2012 p{
+         font-size: 35px;
+     }
+     
+     #a2015 p{
+         font-size: 33px;
+     }
+ }
+ 
+ 
+ 
+ 
